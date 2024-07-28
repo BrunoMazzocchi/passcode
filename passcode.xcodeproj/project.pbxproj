@@ -14,6 +14,9 @@
 		744B08362C56DE17006B9993 /* passcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B08352C56DE17006B9993 /* passcodeTests.swift */; };
 		744B08402C56DE17006B9993 /* passcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B083F2C56DE17006B9993 /* passcodeUITests.swift */; };
 		744B08422C56DE17006B9993 /* passcodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B08412C56DE17006B9993 /* passcodeUITestsLaunchTests.swift */; };
+		744B084F2C56DE48006B9993 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B084E2C56DE48006B9993 /* PasscodeView.swift */; };
+		744B08512C56DE54006B9993 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B08502C56DE54006B9993 /* NumberPadView.swift */; };
+		744B08532C56DE63006B9993 /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744B08522C56DE63006B9993 /* PasscodeIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		744B083B2C56DE17006B9993 /* passcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		744B083F2C56DE17006B9993 /* passcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passcodeUITests.swift; sourceTree = "<group>"; };
 		744B08412C56DE17006B9993 /* passcodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passcodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		744B084E2C56DE48006B9993 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		744B08502C56DE54006B9993 /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		744B08522C56DE63006B9993 /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				744B08262C56DE16006B9993 /* ContentView.swift */,
 				744B08282C56DE17006B9993 /* Assets.xcassets */,
 				744B082A2C56DE17006B9993 /* Preview Content */,
+				744B084E2C56DE48006B9993 /* PasscodeView.swift */,
+				744B08502C56DE54006B9993 /* NumberPadView.swift */,
+				744B08522C56DE63006B9993 /* PasscodeIndicatorView.swift */,
 			);
 			path = passcode;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744B084F2C56DE48006B9993 /* PasscodeView.swift in Sources */,
+				744B08532C56DE63006B9993 /* PasscodeIndicatorView.swift in Sources */,
 				744B08272C56DE16006B9993 /* ContentView.swift in Sources */,
 				744B08252C56DE16006B9993 /* passcodeApp.swift in Sources */,
+				744B08512C56DE54006B9993 /* NumberPadView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
